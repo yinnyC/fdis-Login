@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #fff;
+}
+
 a:hover h4:hover {
   color: #fff;
 }

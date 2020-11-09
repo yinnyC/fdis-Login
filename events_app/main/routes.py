@@ -155,7 +155,7 @@ def show_guests():
             email=email,
             plus_one=plus_one,
             phone=phone,
-            events_attending=[event],
+            events_attending=[],
         )
 
         event.guests.append(guest)
