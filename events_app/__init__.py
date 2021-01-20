@@ -7,9 +7,7 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 
-# TODO: Use the instructions in your assignment
-# to initialize your database taking our app as its parameter.
-
+SECRET_KEY = os.getenv("SECRET_KEY")
 db = SQLAlchemy(app)
 
 from events_app.main.routes import main
